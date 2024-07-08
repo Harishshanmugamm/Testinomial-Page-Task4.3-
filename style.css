@@ -1,0 +1,128 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reg {
+    display: grid;
+    align-items: center;
+    gap: 2.5rem;
+    padding: 120px 8% 100px;
+    background-image: url("./Assets/gradient-7258997_1280.png");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.content-text {
+    margin-bottom: 10px;
+    text-align: center; /
+}
+
+.content-text h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}  
+
+.content-text h2 span {
+    color: #388b6f;
+}
+
+.val {
+    background: rgba(6, 0, 0, 0.645);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.val form {
+    padding: 0; 
+}
+
+.val form input[type="email"],.val form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    display: block; 
+}
+
+.val form input {
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s;
+}
+
+.val form input:focus {
+    border-color: #ff0707;
+}
+
+.val form label {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.val form .form-buttons {
+    margin-top: 20px;
+    text-align: center; 
+}
+
+.val form button {
+    display: inline-block;
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #388b6f;
+    color: white;
+    border: 2px solid #388b6f;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.val form button:hover {
+    background-color: #030000;
+    border-color: #030000;
+    color: #fff;
+}
+
+footer {
+    background-image: url(./Assets/gradient-7258997_1280.png);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 190px;
+}
+footer p {
+    margin: 0;
+}
+
+img {
+    border-radius: 50%;
+    margin-left: 40%;
+    width: 20%;
+    height: 20%;
+  }
+/* Media Queries */
+
+/* For screens from 375px to 600px */
+@media (min-width: 375px) and (max-width: 600px) {
+    .reg {
+        padding: 80px 5% 60px;
+    }
+}
+
+/* For Laptop screens and Desktops from 600px to 1200px */
+@media (min-width: 600px) and (max-width: 1200px) {
+    .reg {
+        padding: 100px 5% 80px;
+    }
+}
+
+
